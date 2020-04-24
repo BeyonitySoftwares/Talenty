@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+     android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add_box_black_24dp"
+        tools:ignore="MenuTitle" />
+
+<item
+        android:id="@+id/inbox"
+        android:icon="@drawable/ic_textsms_black_24dp"
+        android:title="SMS"/>
+
+<item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Profile"/>
+
+</menu>
