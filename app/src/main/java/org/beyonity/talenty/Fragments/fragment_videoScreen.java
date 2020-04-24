@@ -1,4 +1,4 @@
-package org.beyonity.talenty;
+package org.beyonity.talenty.Fragments;
 
 import android.os.Bundle;
 
@@ -8,13 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import org.beyonity.talenty.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ProfileFragment extends Fragment {
+public class fragment_videoScreen extends Fragment {
 
-    public ProfileFragment() {
+    public fragment_videoScreen() {
         // Required empty public constructor
     }
 
@@ -23,6 +25,6 @@ public class ProfileFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false);
+        return inflater.inflate(R.layout.fragment_videoscreen, container, false);
     }
 }
