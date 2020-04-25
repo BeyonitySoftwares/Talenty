@@ -4,44 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    android:layout_marginTop="20dp"
+    android:background="@drawable/bg"
     tools:context=".Fragments.fragment_videoScreen">
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="username"
-        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView16"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="description with hashtag" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="?actionBarSize"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
 
-    <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/heart_outline" />
 
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/comment_outline" />
+        <TextView
+            android:id="@+id/tdescription"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="10dp"
+            android:text="#description with hashtag" />
 
-    <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/share_outline" />
+    </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton11"
+
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/music_circle" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="?actionBarSize"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageButton8"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/heart_outline" />
+
+        <ImageView
+            android:id="@+id/comment"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/comment_outline" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/share_outline" />
+
+        <ImageView
+            android:id="@+id/musicroll"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/music_circle" />
+    </LinearLayout>
+
 </RelativeLayout>

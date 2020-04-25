@@ -72,9 +72,9 @@ public class MainActivity extends AppCompatActivity {
         vg = (CustomViewPager) findViewById(R.id.vg);
         vg.disableScroll(true);
         pageAdapter = new fragmentspageadapter(getSupportFragmentManager());
-        pageAdapter.addFragment(home);
-        pageAdapter.addFragment(search);
         pageAdapter.addFragment(video);
+        pageAdapter.addFragment(search);
+        pageAdapter.addFragment(home);
         pageAdapter.addFragment(notification);
         pageAdapter.addFragment(profile);
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
