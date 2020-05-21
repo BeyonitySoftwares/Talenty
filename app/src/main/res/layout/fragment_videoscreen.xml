@@ -21,6 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
+            android:fontFamily="@font/quicksand"
             android:text="username"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
@@ -31,6 +32,7 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
+            android:fontFamily="@font/quicksand"
             android:text="#description with hashtag"
             android:textColor="@android:color/white" />
 
@@ -51,7 +53,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="15dp"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
             android:src="@drawable/avatar" />
@@ -61,24 +63,57 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="1dp"
             android:src="@drawable/heart_outline" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:elevation="5dp"
+            android:fontFamily="@font/quicksand"
+            android:text="1.5m"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
 
         <ImageView
             android:id="@+id/comment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="1dp"
             android:src="@drawable/comment_outline" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:elevation="5dp"
+            android:fontFamily="@font/quicksand"
+            android:text="10k"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
 
         <ImageView
             android:id="@+id/share"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="1dp"
             android:src="@drawable/share_outline" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:elevation="5dp"
+            android:fontFamily="@font/quicksand"
+            android:text="20k"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
 
         <ImageView
             android:id="@+id/musicroll"
