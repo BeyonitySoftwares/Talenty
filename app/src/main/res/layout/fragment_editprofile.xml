@@ -11,12 +11,15 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
         tools:src="@tools:sample/avatars" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -28,15 +31,24 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:text="Username" />
+                android:fontFamily="@font/quicksand"
+                android:text="Username"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:text="Username" />
+                android:fontFamily="@font/quicksand"
+                android:text="Username"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
 
             <ImageButton
                 android:id="@+id/imageButton6"
@@ -50,7 +62,11 @@
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="talenty.com/username" />
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/quicksand"
+            android:text="talenty.com/username"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -61,15 +77,24 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:text="Bio" />
+                android:fontFamily="@font/quicksand"
+                android:text="Bio"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:fontFamily="@font/quicksand"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
 
             <ImageButton
                 android:id="@+id/imageButton7"
@@ -83,13 +108,21 @@
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Link Instagram" />
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/quicksand"
+            android:text="Link Instagram"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Link Youtube" />
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/quicksand"
+            android:text="Link Youtube"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
